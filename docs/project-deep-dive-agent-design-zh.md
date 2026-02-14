@@ -209,9 +209,9 @@
 
 ---
 
-## 7. 后续文档规划（建议你继续补齐）
+## 7. 详细设计文档
 
-建议以本文件为“总览”，继续拆出 4 份专题文档：
+本文件为“总览”，各模块的详细设计请参考以下专题文档：
 
 1. `docs/ai-layer-deep-dive.md`：重点写 provider 抽象和 stream 事件协议
 2. `docs/agent-runtime-deep-dive.md`：重点写 agent loop 与工具执行事务
