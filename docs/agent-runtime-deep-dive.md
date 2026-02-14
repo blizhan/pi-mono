@@ -76,7 +76,7 @@ Agent 进入生产后，`abort` 不是可选项。
 
 ## 6. 可扩展点设计
 
-Runtime 最值得预留的扩展点：
+Runtime 最值得预留的扩展点，可通过订阅 Agent 事件流实现：
 
 1. `beforeModelCall` / `afterModelCall`
 2. `beforeToolCall` / `afterToolCall`
